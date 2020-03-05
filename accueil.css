@@ -148,6 +148,8 @@ footer{
     background: rgba(34, 74, 123, 0.2);
     height: 30px;
     padding-top: 7px;
+    position: absolute;
+    bottom: 0px;
 }
 
 .ft-left{
@@ -166,6 +168,18 @@ footer{
 .p{
     margin-right: 20px;
 }
+@media screen and (max-width:1860px){
+    .container{
+        width: 95%;
+        justify-content: center;
+        margin-left: 2.5%;
+    }
+    .container .box{
+        width: auto;
+    }
+
+}
+
 @media screen and (max-width:1310px){
     .container .box{
         width: 285px;
